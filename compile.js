@@ -17,7 +17,7 @@ return function(data) {
   var insertion = ":::::::::::::::::::::::::::::::::::::::::::";
   var combined = fm.base.replace(insertion, hex);
   */
-  return fs.WriteFile(hexpath, text).then(function() {
+  return fs.writeFile(hexpath, text).then(function() {
     return session.flashMessage(path, "Compiled Successfully", 500);
   });
 };
