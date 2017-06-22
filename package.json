@@ -1,0 +1,10 @@
+{
+    "name": "Micropython Compiler",
+    "uri": "gh:beansrowning/muzed",
+    "version": "0.1",
+    "description": "Compiles Microbit Micropython into Intel HEX",
+    "files": [
+      "compile.js",
+      "hexlifyscript.js"
+    ]
+}

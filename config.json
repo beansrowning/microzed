@@ -1,0 +1,22 @@
+{
+    modes: {
+        python: {
+            name: "Python",
+            highlighter: "ace/mode/python",
+            extensions: ["py", "pyx"],
+            completionTriggers: ["."],
+            commands: {
+                "Tools:Compile": {
+                  scriptUrl: "./compile.js",
+                  inputs: {
+                    text: true
+                  },
+                  sandbox: "compile"
+                }
+            },
+            handlers: {
+                compile: ["Tools:Compile"]
+            }
+        }
+    }
+}
