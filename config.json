@@ -1,14 +1,14 @@
 {
-    modes: {
-        python: {
-            commands: {
-                "Tools:Compile": {
-                  scriptUrl: "./compile.js",
-                  inputs: {
-                    text: true
-                  }
-                }
-            }
+  "modes": {
+    "python": {
+      "commands": {
+        "Tools:Compile": {
+          "scriptUrl": "./compile.js",
+          "inputs": {
+            "text": true
           }
         }
+      }
+    }
+  }
 }
