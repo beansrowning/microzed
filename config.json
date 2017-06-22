@@ -2,7 +2,7 @@
   "modes": {
     "python": {
       "commands": {
-        "Tools:Compile": {
+        "Tools:Micropython Compile": {
           "scriptUrl": "./compile.js",
           "inputs": {
             "text": true
