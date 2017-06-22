@@ -11,9 +11,11 @@ return function(data) {
   var text = data.inputs.text;
   var hexpath = path.replace(/\.hex$/, ".py");
   var hex = hexify.hexlifyScript(text);
+  /* Debug
   var insertion = ":::::::::::::::::::::::::::::::::::::::::::";
   var combined = fm.replace(insertion, hex);
-  return fs.WriteFile(hexpath, combined).then(function() {
+  */
+  return fs.WriteFile(hexpath, hex).then(function() {
     return session.flashMessage(path, "Compiled Successfully", 500);
   });
 };
