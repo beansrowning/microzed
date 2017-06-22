@@ -11,9 +11,8 @@ return function(data) {
   var text = data.inputs.text;
   var hexpath = path.replace(/\.hex$/, ".py");
   var hex = hexify.hexlifyScript(text);
-  var firmware = fm.text();
   var insertion = ":::::::::::::::::::::::::::::::::::::::::::";
-  var combined = firmware.replace(insertion, hex);
+  var combined = fm.replace(insertion, hex);
   return fs.WriteFile(hexpath, combined).then(function() {
     return session.flashMessage(path, "Compiled Successfully", 500);
   });
