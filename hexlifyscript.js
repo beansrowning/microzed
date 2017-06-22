@@ -8,7 +8,7 @@ script.
 // hexlifyScript:
 // - takes a Python script as a string
 // - returns hexlified string, with newlines between lines
-function hexlifyScript(script) {
+module.exports = function(script) {
     function hexlify(ar) {
         var result = '';
         for (var i = 0; i < ar.length; ++i) {

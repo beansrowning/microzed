@@ -12,7 +12,7 @@ return function(data) {
   var path = data.path;
   var text = data.inputs.text;
   var hexpath = path.replace(/\.hex$/, ".py");
-  var hex = hexify.hexlifyScript(text);
+  var hex = hexify(text);
   /*
   var insertion = ":::::::::::::::::::::::::::::::::::::::::::";
   var combined = fm.base.replace(insertion, hex);
