@@ -1,4 +1,10 @@
-# A Microbit Micropython compiler in the Zed Editor
+# A Microbit Micropython compiler function for the Zed Editor
 ### By Sean Browning
+------------------------------------------------------------
+- Based on ntoll's [python-native-editor](https://github.com/ntoll/python-native-editor), using his Hexlify script.  
+- Beta run  
 
-## Based on ntoll's [https://github.com/ntoll/python-native-editor](python-native-editor), using his Hexilify script.
+### Installation:  
+- `Tools:Zpm:Install`
+- `URI: gh:beansrowning/microzed`
+
