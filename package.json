@@ -6,6 +6,7 @@
   "files": [
     "compile.js",
     "hexlifyscript.js",
-    "firmware.hex"
+    "firmware.hex",
+    "firmware.hex.js"
   ]
 }
