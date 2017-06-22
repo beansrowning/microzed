@@ -9,9 +9,7 @@
                   },
                   sandbox: "compile"
                 }
-            },
-            handlers: {
-                compile: ["Tools:Compile"]
+            }
             }
         }
     }
