@@ -6,11 +6,9 @@
                   scriptUrl: "./compile.js",
                   inputs: {
                     text: true
-                  },
-                  sandbox: "compile"
+                  }
                 }
             }
-            }
+          }
         }
-    }
 }
